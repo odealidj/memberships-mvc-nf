@@ -416,3 +416,19 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Ignore build output
+bin/
+obj/
+*.cache
+*.dll
+*.exe
+
+# JetBrains Rider specific
+.idea/
+*.sln.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
